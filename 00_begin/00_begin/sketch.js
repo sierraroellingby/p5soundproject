@@ -1,8 +1,6 @@
 'use strict';
 
-let capeimage;
-let bootsimage;
-let dressimage;
+
 let funkSound;
 let happySound;
 let smoothSound;
@@ -19,9 +17,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(255, 0, 255);
 
-capeimage = select("#cape");
-bootsimage = select("#boots");
-dressimage = select("#dress");
+
 
 
 fill(255, 0, 0);
